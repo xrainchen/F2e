@@ -1,0 +1,1 @@
+!function(e){e(".js-showlayer").click(function(){layer.open({title:"",type:1,area:["800px","560px"],content:e("#selectproduct").html()})})}(jQuery);
