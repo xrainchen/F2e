@@ -1,0 +1,1 @@
+!function(t){(t(window).width()-1200)/2>=130?t(".dz-contact").css({left:"0"}).find(".show-btn").hide():t(".dz-contact").hover(function(){t(this).stop(!0).animate({left:0})},function(){t(this).stop(!0).animate({left:"-130px"})})}(jQuery);

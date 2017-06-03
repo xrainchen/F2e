@@ -1,0 +1,143 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+input,
+button,
+textarea,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #333;
+    min-width: 1200px;
+    background: #f2f2f2;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+}
+
+::-webkit-input-placeholder {
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+button {
+    -webkit-appearance: none;
+    border: 0;
+    background: none;
+}
+
+a,
+a:hover {
+    -webkit-touch-callout: none;
+    text-decoration: none;
+}
+
+a {
+    color: #333;
+}
+
+:focus {
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+li {
+    list-style: none;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    outline: 0;
+}
+
+input,
+button,
+textarea,
+select {
+    font-size: 100%;
+    outline: none;
+}
+
+input {
+    border: none;
+}
+
+.clearfix:after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.yq-nowrap {
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+@import '../../css/fonts/iconfont.css';
+@import 'common.scss'
+

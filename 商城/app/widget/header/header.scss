@@ -1,0 +1,75 @@
+.yq-header {
+    overflow: hidden;
+    border-top: 4px solid #ff9a89;
+    .header {
+        width: 1200px;
+        margin: 0 auto;
+        height: 126px;
+    }
+    h1 {
+        overflow: hidden;
+        margin-top: 25px;
+        float: left;
+        height: 0;
+        width: 231px;
+        padding-top: 77px;
+        background: url(/images/logo.png) center no-repeat;
+    }
+    .search-box {
+        margin-top: 20px;
+        float: right;
+    }
+    .search-main {
+        overflow: hidden;
+    }
+    .search-input {
+        float: left;
+        width: 648px;
+        padding: 9px 15px;
+        border: 3px solid #ff3613;
+        input {
+            color: #333;
+            font-size: 14px;
+        }
+    }
+    .search-btn {
+        color: #fff;
+        float: left;
+        line-height: 43px;
+        width: 75px;
+        text-align: center;
+        background: #ff3613;
+    }
+    .search-tips {
+        margin-top: 13px;
+        overflow: hidden;
+        a {
+            float: left;
+            margin-right: 15px;
+            font-size: 14px;
+            color: #808080;
+        }
+    }
+}
+
+.yq-nav {
+    background: #333;
+    .nav-list {
+        width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+        line-height: 60px;
+        a {
+            font-size: 18px;
+            display: block;
+            color: #fff;
+            padding: 0 30px;
+        }
+        &.on {
+            background: #222;
+        }
+    }
+}

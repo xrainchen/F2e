@@ -1,0 +1,51 @@
+.vender-listbox {
+    margin: 20px auto;
+    width: 1200px;
+    .vender-list {
+        overflow: hidden;
+        margin-left: -20px;
+    }
+    li {
+        float: left;
+        width: 558px;
+        margin: 0 0 20px 20px;
+        padding: 15px;
+        border: 1px solid #e6e6e6;
+    }
+    .img-box {
+        float: left;
+        width: 166px;
+        height: 166px;
+    }
+    .vender-desc {
+        padding-left: 178px;
+        color: #333;
+        font-size: 14px;
+        h2 {
+            font-size: 16px;
+        }
+        .vender-tags {
+          padding: 15px 0 5px;
+          a{
+            display: inline-block;
+            color: #ff3613;
+            margin-right: 10px;
+          }
+        }
+        .desc-main{
+          font-size: 12px;
+          line-height: 24px;
+          padding-bottom: 15px;
+        }
+    }
+    .vender-btn{
+       display: inline-block;
+       text-align: center;
+       width: 100px;
+       line-height: 30px;
+       color: #fff;
+       font-size: 14px;
+       background: #ff3613;
+       border-radius: 2px;
+    }
+}

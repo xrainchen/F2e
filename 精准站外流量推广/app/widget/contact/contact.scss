@@ -1,0 +1,40 @@
+.dz-contact {
+    position: fixed;
+    width: 130px;
+    left: -130px;
+    top: 50%;
+    padding: 16px 0;
+    margin-top: -200px;
+    background: #fff;
+    line-height: 1;
+    text-align: center;
+    color: #333;
+    h2 {
+        font-size: 16px;
+    }
+    ul {
+        padding: 20px 0;
+        >li {
+            display: inline-block;
+            margin: 0 6px;
+        }
+    }
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .contact-box{
+       padding: 16px 0;
+       border-top: 1px solid #f2f2f2;
+    }
+
+    .show-btn{
+        position: absolute;
+        width: 38px;
+        height: 121px;
+        top: 0;
+        left: 130px;
+        cursor: pointer;
+        background: url(/images/online-qq.png) center no-repeat;
+    }
+}

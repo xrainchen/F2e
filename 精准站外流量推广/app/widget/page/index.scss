@@ -1,0 +1,64 @@
+//首页提醒  
+.yq-maintips {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    p {
+        margin-bottom: 14px
+    }
+    .maintips-img {
+        float: right;
+    }
+    .maintips-main {
+        float: left;
+    }
+}
+
+.yq-article {
+    width: 1215px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    .yq-box {
+        width: 555px;
+        float: left;
+        margin-left: 10px;
+    }
+    li {
+        overflow: hidden;
+        line-height: 30px;
+        p {
+            color: #666;
+            width: 405px;
+        }
+    }
+    .article-buyed {
+        li {
+            span {
+                display: inline-block;
+                padding-right: 30px;
+            }
+        }
+    }
+}
+
+.share-main {
+    overflow: hidden;
+    margin-left: -30px;
+    li {
+        float: left;
+        margin-left: 30px;
+        text-align: center;
+        img {
+            width: 208px;
+            height: 130px;
+        }
+        p {
+            padding-top: 10px;
+            font-size: 14px;
+            color: #333;
+            line-height: 22px;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.resource-box {
+    overflow: hidden;
+    margin-top: 10px;
+    .resource-main {
+        width: 890px;
+        float: left;
+        margin-right: 10px;
+    }
+    .resource-table {
+        margin-top: 10px;
+    }
+    .resource-img {
+        float: left;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .resource-title {
+        font-size: 12px;
+        color: #333;
+    }
+    .resource-desc {
+        padding-left: 50px;
+        width: 300px;
+        line-height: 1.2;
+    }
+    .resource-price {
+        color: #ec0606;
+        font-size: 12px;
+    }
+    .resource-tablebox {
+        margin-top: 10px;
+        .form-inline {
+            margin: 20px 0 30px;
+        }
+        .search-btn{
+            text-align: center;
+            display: block;
+            width: 45px;
+            line-height: 30px;
+            background: #f4f4f4;
+            border-radius: 3px;
+            border: 1px solid #d9d9d9;
+            &:hover{
+                background: #1299e7;
+                border-color: #1299e7;
+                color: #fff;
+            }
+        }
+    }
+    .resource-table {
+        width: 100%;
+        color: #666;
+        font-size: 12px;
+        thead {
+            border-bottom: 1px solid #f2f2f2;
+        }
+        th,
+        td {
+            padding: 10px 0;
+        }
+    }
+}

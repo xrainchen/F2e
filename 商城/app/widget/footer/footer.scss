@@ -1,0 +1,55 @@
+.yq-footer {
+    border-top: 3px solid #2b2b2b;
+    .part-top {
+        background: #eff1f3;
+    }
+    .part-topmain {
+        width: 1200px;
+        padding: 25px 0;
+        margin: 0 auto;
+    }
+    h3 {
+        padding: 8px 0;
+        font-size: 16px;
+        color: #333;
+    }
+    .footer-link {
+        overflow: hidden;
+        margin-left: -5px;
+        li {
+            position: relative;
+            float: left;
+            padding: 0 6px 0 5px;
+            &:after {
+                position: absolute;
+                right: 0;
+                top: 5px;
+                content: "";
+                height: 12px;
+                width: 1px;
+                background: #acadaf;
+            }
+        }
+        a {
+            color: #545454;
+            font-size: 12px;
+            line-height: 20px;
+            &:hover {
+                color: #c2c1c1;
+            }
+        }
+    }
+    .part-bottom {
+        background: #2b2b2b;
+        p{
+            line-height: 60px;
+            color: #fff;
+            font-size: 12px;
+        }
+    }
+    .part-bottommain {
+        overflow: hidden;
+        width: 1200px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,26 @@
+.new-status {
+    width: 260px;
+    float: left;
+    padding: 20px;
+    .status-list {
+        li {
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+    }
+    .status-img {
+        width: 40px;
+        float: left;
+    }
+    .status-desc {
+        padding-left: 45px;
+        font-size: 12px;
+    }
+    .status-title {
+        color: #333;
+    }
+    .status-price {
+        margin-top: 5px;
+        color: #ec0606;
+    }
+}

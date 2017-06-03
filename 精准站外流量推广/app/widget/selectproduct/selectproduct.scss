@@ -1,0 +1,118 @@
+#selectproduct {
+    display: none;
+}
+
+.selectproduct {
+    h2.select-title {
+        line-height: 45px;
+        padding: 0 20px;
+        color: #333;
+        font-size: 16px;
+        background: #f2f2f2;
+    }
+    .select-img {
+        float: left;
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .select-title {
+        font-size: 14px;
+        color: #333;
+    }
+    .select-desc {
+        padding-left: 60px;
+        width: 240px;
+        line-height: 17px;
+    }
+    .select-price {
+        color: #ec0606;
+        font-size: 12px;
+    }
+    .select-main {
+        overflow: hidden;
+        padding: 20px;
+    }
+    .search-btn {
+        text-align: center;
+        display: block;
+        width: 45px;
+        line-height: 30px;
+        background: #f4f4f4;
+        border-radius: 3px;
+        border: 1px solid #d9d9d9;
+        &:hover {
+            background: #1299e7;
+            border-color: #1299e7;
+            color: #fff;
+        }
+    }
+    .select-table {
+        margin-top: 20px;
+        width: 490px;
+        color: #666;
+        font-size: 12px;
+        thead {
+            border-bottom: 1px solid #f2f2f2;
+        }
+        th,
+        td {
+            padding: 10px 0;
+        }
+    }
+    .select-left {
+        padding-right: 15px;
+        width: 490px;
+        float: left;
+    }
+    .select-right {
+        border-left: 1px solid #f2f2f2;
+        padding-left: 14px;
+        float: right;
+        width: 240px;
+        height: 475px;
+        overflow-y: auto;
+        h3 {
+            font-size: 14px;
+            color: #333;
+        }
+    }
+    .selected-list {
+        li {
+            margin: 10px 0;
+        }
+        .selected-img {
+            float: left;
+            img {
+                width: 48px;
+                height: 48px;
+            }
+        }
+        .selected-desc {
+            padding-left: 55px;
+            width: 120px;
+            font-size: 12px;
+        }
+        .selected-title {
+            color: #333;
+        }
+    }
+     ::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+        background-color: #f2f2f2;
+    }
+    /*定义滚动条轨道 内阴影+圆角*/
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+    /*定义滑块 内阴影+圆角*/
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+        background-color: #999;
+    }
+}

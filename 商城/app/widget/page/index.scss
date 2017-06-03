@@ -1,0 +1,268 @@
+.index {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.index-body{
+    .yq-nav{
+        background: none;
+    }
+    .nav-list{
+        padding-left: 204px;
+        width: 996px;
+        li {
+            background: #fff;
+            a{
+                color: #000;
+        }
+        }
+    }
+}
+
+.index-bannerbox {
+    overflow: hidden;
+    .index-nav {
+        float: left;
+        width: 144px;
+        padding: 18px 30px;
+        background: #434343;
+        li {
+            float: left;
+            margin-right: 20px;
+            padding-bottom: 12px;
+            line-height: 1;
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.index-list {
+    overflow: hidden;
+    margin: 20px 0 20px -20px;
+    li {
+        margin-left: 20px;
+        float: left;
+        background: #fff;
+    }
+}
+
+.index-price {
+    padding-top: 5px;
+    font-size: 22px;
+    color: #ff3613;
+}
+
+.index-desc {
+    padding: 5px 0 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.index-tag {
+    font-size: 0;
+    label {
+        margin-right: 10px;
+        display: inline-block;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0 8px;
+        border: 1px solid #ff3613;
+        color: #ff3613;
+        border-radius: 2px;
+    }
+}
+
+.index-btn {
+    margin-top: 18px;
+    display: inline-block;
+    width: 95px;
+    line-height: 30px;
+    background: #ff3613;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+    &:hover {
+        background: #dc2100;
+    }
+}
+
+.rob-everyday {
+    margin-top: 20px;
+    >h2 {
+        padding: 0 15px;
+        line-height: 45px;
+        background: #ff3613;
+        color: #fff;
+    }
+}
+
+.index-title {
+    position: relative;
+    z-index: 9;
+    border-bottom: 1px solid #ff3613;
+    margin-bottom: 20px;
+    >h2 {
+        float: left;
+        color: #333;
+        font-size: 22px;
+        line-height: 44px;
+    }
+    >ul {
+        position: relative;
+        z-index: 10;
+        bottom: -1px;
+        float: right;
+        li {
+            width: 135px;
+            text-align: center;
+            float: left;
+            line-height: 44px;
+            border: 1px solid #f2f2f2;
+            margin-left: -1px;
+            &.on {
+                position: relative;
+                z-index: 11;
+                line-height: 45px;
+                border: 1px solid #dc2100;
+                border-bottom-color: #fff;
+            }
+        }
+        a {
+            display: block;
+            color: #666;
+            font-size: 14px;
+        }
+    }
+    .show-more {
+        float: right;
+        line-height: 45px;
+        font-size: 14px;
+        color: #808080;
+    }
+}
+
+.index-dress {
+    .index-list {
+        li {
+            padding-bottom: 20px;
+        }
+        .index-btn {
+            margin-top: 0;
+        }
+    }
+}
+
+.index-top {
+    .top-list {
+        overflow: hidden;
+        li {
+            overflow: hidden;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #f2f2f2;
+        }
+    }
+    .top-listimg {
+        float: left;
+        width: 181px;
+        height: 181px;
+    }
+    .top-listdesc {
+        padding: 0 20px 0 191px;
+        h3 {
+            font-size: 20px;
+            color: #333;
+        }
+    }
+    .top-label {
+        font-size: 14px;
+        color: #333;
+        line-height: 24px;
+        label {
+            color: #ff3613;
+            padding-right: 10px;
+        }
+    }
+    .top-desc {
+        font-size: 14px;
+        color: #333;
+        line-height: 24px;
+    }
+}
+
+.index-slide {
+    position: relative;
+    width: 996px;
+    float: left;
+    .new-qiye {
+        position: absolute;
+        padding: 10px;
+        width: 200px;
+        height: 350px;
+        right: 15px;
+        top: 15px;
+        background: #e6f8ff;
+    }
+    .qiye-title {
+        overflow: hidden;
+        border-bottom: 1px solid #cfdfe5;
+        h2 {
+            float: left;
+            font-size: 16px;
+            color: #000;
+            line-height: 32px;
+        }
+        a {
+            float: right;
+            font-size: 12px;
+            color: #808080;
+            line-height: 32px;
+        }
+    }
+    .qiye-list {
+        padding-left: 28px;
+        padding-top: 20px;
+        font-size: 12px;
+        line-height: 16px;
+        color: #808080;
+        background: url(/images/qiye-list.png) left 20px no-repeat;
+        li {
+            margin-bottom: 18px;
+        }
+        a {
+            color: #333;
+            &:hover{
+                color: #ff3613;
+            }
+        }
+    }
+}
+
+.slideBox {
+    position: relative;
+    .hd {
+        height: 15px;
+        overflow: hidden;
+        position: absolute;
+        left: 330px;
+        bottom: 5px;
+        z-index: 1;
+    }
+    .hd ul {
+        overflow: hidden;
+    }
+    .hd ul li {
+        float: left;
+        margin-right: 16px;
+        width: 11px;
+        height: 11px;
+        background: #fff;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    .hd ul li.on {
+        background: #ff3613;
+    }
+}
